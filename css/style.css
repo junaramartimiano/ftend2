@@ -6,3 +6,9 @@
     rgba(191, 238, 145, 1) 100%
   );
 }
+.vermelho{
+  color: crimson;
+}
+.azul{
+  color: rgb(10, 131, 206);
+}

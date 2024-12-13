@@ -12,3 +12,9 @@
 .azul{
   color: rgb(10, 131, 206);
 }
+.text-justify{
+  text-align: justify;
+}
+.primeira-linha{
+  text-indent: 2em;
+}

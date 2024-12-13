@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="scripts/script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -23,16 +24,14 @@
     </div>
     <div class="container">
       <div id="conteudo">Página Inicial</div>
-    </div>
+    </div> 
     <div class="container">
       <div id="footer">Rodapé</div>
     </div>
     <script lang="text/javascript">
       $("#menu").load("./components/menu.html");
       $("#footer").load("./components/footer.html");
-      function menu(pagina) {
-        $("#conteudo").load("./components/"+pagina+".html");
-      }
+     
       </script>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

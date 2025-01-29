@@ -1,3 +1,7 @@
 function menu(pagina) {
-    $("#conteudo").load("../components/"+pagina+".html");
-  }
+    $('#conteudo').hide(2000,()=>{
+      $("#conteudo").load("../components/"+pagina+".html",()=>{
+         $('#conteudo').show(2000);
+      });   
+    });
+  }  
